@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1434828607 source:/home/odeda/cvs/procls/main.cpp
+	<iostream>
+	<sstream>
+	<iomanip>
+	<array>
+	<string>
+	<algorithm>
+	<exception>
+	"helpers.h"
+	"processes.h"
+	"process.h"
+
+1434830316 /home/odeda/cvs/procls/include/helpers.h
+	<string>
+	<vector>
+
+1434828777 /home/odeda/cvs/procls/include/processes.h
+	<functional>
+	<vector>
+	<sys/types.h>
+	"process.h"
+
+1434828631 /home/odeda/cvs/procls/include/process.h
+	<string>
+	<sys/types.h>
+
+1434830322 source:/home/odeda/cvs/procls/src/helpers.cpp
+	"helpers.h"
+	<fstream>
+	<sstream>
+	<cerrno>
+	<system_error>
+	<pwd.h>
+	<sys/stat.h>
+
+1434830576 source:/home/odeda/cvs/procls/src/process.cpp
+	"process.h"
+	<algorithm>
+	<system_error>
+	<pwd.h>
+	"helpers.h"
+
+1434831016 source:/home/odeda/cvs/procls/src/processes.cpp
+	"processes.h"
+	<algorithm>
+	<functional>
+	<system_error>
+	<cerrno>
+	<dirent.h>
+
