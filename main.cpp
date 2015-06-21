@@ -25,7 +25,7 @@ void max_sizes(column_sizes &curmax, const row_data &strings_to_check) {
 
 std::string output_row(column_sizes column_size, const row_data &row_data, std::string delim) {
     std::ostringstream s;
-    s << std::setw(column_size.front()) << row_data.front();
+    s << std::left << std::setw(column_size.front()) << row_data.front();
     for (size_t i = 1; i < column_size.size(); ++i) {
         s << delim << std::setw(column_size[i]) << row_data[i];
     }
